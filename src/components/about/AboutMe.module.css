@@ -1,0 +1,167 @@
+.sectionWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem 0;
+    
+}
+.sectionWrap > section{
+    width: 50%;
+    margin-bottom: 4rem;
+}
+
+.sectionWrap p{
+    font-size: 1.8rem;
+    line-height: 1.4;
+}
+
+.sectionWrap > section h1{
+    font-size: 4.8rem;
+    margin-bottom: 5rem;
+}
+
+.sectionWrap > section h2{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+    color: rgb(157 134 197);
+    font-weight: bold;
+}
+
+.sectionWrap > section li{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.sectionWrap b, .sectionWrap strong{
+    font-weight: bold;
+
+}
+
+.edu ul{
+    margin-top: 1rem;
+    list-style: initial;
+}
+
+.edu ul li{
+    margin-left: 3rem;
+}
+
+.career li.crList:not(:last-child){
+    margin: 2rem 0;
+    margin-top:0;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 2rem;
+}
+
+.career ul ul{
+    margin: 1rem;
+}
+
+li.crList li{
+    margin-bottom: 1.5rem;
+}
+li.crList strong{
+    font-size:1.8rem;
+}
+.sectionWrap > section p.role{
+    font-size: 1.6rem;
+}
+.role span{
+    background-color: #d7c1ff;
+    padding: 0.3rem 0.6rem;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 1rem;
+}
+.sectionWrap .skill li{
+    font-size:1.8rem;
+}
+.myName{
+    position: relative;
+    font-size: 4.8rem;
+}
+.myName:before{
+    content: '[';
+    float: left;
+    position: absolute;
+    left: 0%;
+    animation: opacity;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+.myName:after{
+    content: ']';
+    float: left;
+    top: 0px;
+    animation: opacity;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    position: absolute;
+    left: 25rem;
+}
+.myName_container {
+      position: relative;
+      height: 10rem;
+      overflow: hidden;
+}
+.myName_p {
+      position: absolute;
+}
+.myName_container ul {
+      position: absolute;
+      list-style-type: none;
+      animation-name: trans;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      margin-top: 0px;
+      left: 2rem;
+      
+}
+.sectionWrap .myName_container li{
+    font-size: 4.8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    font-weight: 300;
+}
+@keyframes opacity{
+    0%,50%{opacity:0;color:#1D1F20;}
+ }
+@keyframes trans {
+    0%, 14.66%{transform:translateY(0%)}
+    16.66%, 31.32% {transform:translateY(-25%)}
+    33.32%,47.98% {transform:translateY(-50%)}
+    49.98%,64.64% {transform:translateY(-75%)}
+    66.64%,81.30% {transform:translateY(-50%)}
+    83.30%,97.96% {transform:translateY(-25%)}
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+
+    .sectionWrap .myName_container li,
+    .myName
+    {
+        font-size: 3.8rem;
+    }
+    .myName_container{
+        height: 7rem;
+    }
+    .myName:after{
+        left: 20rem;
+    }
+    .sectionWrap > section h2{
+        font-size: 2.3rem;
+    }
+    .sectionWrap p, li.crList strong{
+        font-size:1.6rem;
+    }
+    .sectionWrap > section li,
+    .sectionWrap .skill li,
+    .sectionWrap > section p.role{
+        font-size: 1.4rem;
+    }
+    .sectionWrap > section{
+        width: 75%;
+    }
+}

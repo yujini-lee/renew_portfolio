@@ -1,0 +1,16 @@
+:global .dark{
+    background-color: #1f1f1f;
+    color: #f8f8f8;
+    transition: all .4s;
+}
+:global .dark p,
+:global .dark a,
+:global .dark li{
+  color: #f8f8f8;
+  transition: all .4s;
+}
+:global .light{
+    background-color: transparent;
+    transition: all .4s;
+
+}
