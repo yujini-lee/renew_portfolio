@@ -48,7 +48,7 @@ export const info = {
         },
     ],
     skills : { 
-        proficientWith:['HTML','CSS','Javascript & Jquery','React','Git','Firebase','Photoshop']
+        proficientWith:['HTML','CSS','Javascript & Jquery','React','Git','GitHub','Firebase','Photoshop']
     },
     portfolio : [
         {
