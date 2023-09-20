@@ -52,6 +52,16 @@ export default function AboutMe() {
                 <div>
                     <ul>
                         <li className={styles.crList}>
+                            <div><strong>SFMK</strong> <span>(2023.05 ~ 2023.09)</span></div>
+                            <ul>
+                                <li>
+                                    <b>마켓컬리 이벤트 개발 운영</b> <br/>
+                                    이벤트 페이지 제작 및 개발
+                                </li>
+                            </ul>
+                            <p className={styles.role}><span>Role</span> 퍼블리셔</p>
+                        </li>
+                        <li className={styles.crList}>
                             <div><strong>레드망고</strong> <span>(2019.03 ~ 2023.03)</span></div>
                             <ul>
                                 <li>
