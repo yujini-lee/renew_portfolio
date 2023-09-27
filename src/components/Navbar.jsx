@@ -22,11 +22,11 @@ const link = [
         to: '/',
         active: 'home'
     },
-    // {
-    //     name: 'Project',
-    //     to: '/project',
-    //     active: 'project'
-    // }
+    {
+        name: 'Project',
+        to: '/project',
+        active: 'project'
+    }
     
 ] 
 export default function Navbar({toggleDarkMode, darkMode}) {

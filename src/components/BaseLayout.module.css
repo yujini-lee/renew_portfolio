@@ -14,3 +14,13 @@
     transition: all .4s;
 
 }
+:global .github{
+  width: 35px;
+  position: absolute;
+  right: 1rem;
+  top: 1.5rem;
+}
+:global .github img{
+  width:100%;
+  height:100%;
+}

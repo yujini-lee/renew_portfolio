@@ -10,10 +10,6 @@ export const info = {
     initials: "🖥️",
     miniBio: [
         {
-            emoji: "⚒️",
-            text: "포트폴리오 제작중"
-        },
-        {
             emoji: '😆',
             text: '밝은 성격 보유자'
         },
@@ -52,15 +48,38 @@ export const info = {
     },
     portfolio : [
         {
-            title: 'project1',
-            link : 'http://www.digitalidea.co.kr/myboard/vfx',
-            img : project1,
+            title: '컬리 이벤트 페이지 개발',
+            description : '리액트 환경에서 마켓 & 뷰티 이벤트 페이지 제작 및 개발 하였습니다.',
+            techStack : ['HTML','CSS','Javascript & Jquery','React','GitHub'],
+            period : '2023.04 ~ ',
         },
         {
-            title: 'project2',
-            link : 'http://www.digitalidea.co.kr/myboard/vfx',
-            img : project2,
+            title: 'LG 스토어 운영',
+            description : 'LG 스토어 웹 & 앱 운영을 하였고, 이벤트 페이지도 제작 및 개발 하였습니다. 이 프로젝트 참여중 웹접근성으로 사이트 전체 수정 작업도 이루어졌습니다.',
+            techStack : ['HTML','CSS','Javascript & Jquery'],
+            period : '2019.08 ~ 2020.01, 2020.08 ~ 2023.03',
+        },
+        {
+            title: '아모레퍼시픽 브랜드 사이트 운영',
+            description : 'AEM을 사용하여 아모레퍼시픽의 전반적인 브랜드 사이트 운영 및 페이지 유지보수를 하였습니다.',
+            techStack : ['HTML','CSS','Javascript & Jquery'],
+            period : '2019.03 ~ 2019.08',
+        },
+        {
+            title: 'Yujin Renew Portfolio',
+            description : '포트폴리오를 리뉴얼 작업했습니다. Module CSS, Router 등으로 제작 하였습니다.',
+            techStack : ['HTML','CSS','Javascript & Jquery','React','GitHub'],
+            period : '~ing',
+            github : 'https://github.com/yujini-lee/renew_portfolio',
+        },
+        {
+            title: '날씨 API',
+            description : 'Weather API를 사용하여 검색했을때 해당 국가의 날씨를 알 수 있는 리액트 페이지를 만들었습니다.',
+            techStack : ['HTML','CSS','Javascript & Jquery','React','GitHub'],
+            period : '2day',
+            github : 'https://github.com/yujini-lee/project_weather',
         },
         
+
     ]
 }
