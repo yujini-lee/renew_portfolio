@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/renew_portfolio/static/css/main.7d305b4b.css",
-    "main.js": "/renew_portfolio/static/js/main.5750ac7e.js",
+    "main.css": "/renew_portfolio/static/css/main.75774ad8.css",
+    "main.js": "/renew_portfolio/static/js/main.c4616a67.js",
     "static/js/787.d70a0236.chunk.js": "/renew_portfolio/static/js/787.d70a0236.chunk.js",
     "static/media/yujin.png": "/renew_portfolio/static/media/yujin.3dcfa2d77067e4f7528f.png",
     "static/media/mock2.png": "/renew_portfolio/static/media/mock2.e8ed2c07928dfdc15a79.png",
     "static/media/mock1.png": "/renew_portfolio/static/media/mock1.e11f6103909e8c52d703.png",
+    "static/media/github.png": "/renew_portfolio/static/media/github.f11021803f68852df283.png",
     "index.html": "/renew_portfolio/index.html",
-    "main.7d305b4b.css.map": "/renew_portfolio/static/css/main.7d305b4b.css.map",
-    "main.5750ac7e.js.map": "/renew_portfolio/static/js/main.5750ac7e.js.map",
+    "main.75774ad8.css.map": "/renew_portfolio/static/css/main.75774ad8.css.map",
+    "main.c4616a67.js.map": "/renew_portfolio/static/js/main.c4616a67.js.map",
     "787.d70a0236.chunk.js.map": "/renew_portfolio/static/js/787.d70a0236.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d305b4b.css",
-    "static/js/main.5750ac7e.js"
+    "static/css/main.75774ad8.css",
+    "static/js/main.c4616a67.js"
   ]
 }
